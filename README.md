@@ -24,6 +24,7 @@ Skill이 끝내 목록에 안 보이면 설치를 건너뛴다. `AGENTS.md` 규�
 | `$cp-secure` | 비밀 파일이나 개인정보가 보일 때 | 추적 해제, 환경변수, 허락 범위 밖 개인정보 제거, 한계 기록 |
 | `$cp-recount` | 마감 전 | 원본에서 다시 계산, 5개 항목 직접 대조, 바뀐 입력 재실행 |
 | `$cp-final` | 마무리 전 | 최종 점검표, 결과를 설명할 때 받을 질문 6개 |
+| `$ponytail` | 만들기 전 | 요청받지 않은 기능·옵션·설정을 빼고 가장 작은 변경으로 만들게 함. `lite`면 더 작은 방법을 한 줄로 제안하고 고르는 건 사용자 |
 | `templates/DECISIONS.md` | 질문이 끝난 뒤 | 결정 기록 틀(과제에 없을 때만) |
 
 담당자 답 반영, 계획, 작업 진행, 오류 반복, 웹 서버 확인은 Skill 없이 `AGENTS.md` 규칙으로 처리한다. 목표와 제약, 작업 지시는 사용자가 직접 쓴다.
@@ -37,3 +38,5 @@ Skill이 끝내 목록에 안 보이면 설치를 건너뛴다. `AGENTS.md` 규�
 ## 출처와 라이선스
 
 MIT. 검증과 디버깅 원칙은 obra/superpowers(MIT)의 verification-before-completion, systematic-debugging을 참고해 짧게 다시 썼다.
+
+`skills/ponytail/`은 [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)의 `skills/ponytail`을 커밋 `96608e0` 그대로 가져왔다. MIT, 원본 라이선스는 `skills/ponytail/LICENSE`.
