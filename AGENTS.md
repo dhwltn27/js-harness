@@ -38,4 +38,4 @@
 - 사용자가 "마감 모드"라고 하면 새 기능은 넣지 않고 검증, 기록, 제출 준비만 한다.
 
 ## 작업 Skill
-$cp-start 시작 분석 · $cp-secure 보안 · $cp-recount 독립 검산 · $cp-final 최종 검사. 사용자가 "다시 세"라고 하면 $cp-recount, "최종 검사"는 $cp-final을 따른다. Skill이 목록에 없으면 내려받은 js-harness 저장소에서 `skills/<이름>/SKILL.md`를 찾아 직접 읽고 따른다.
+$cp-start 시작 분석 · $cp-check 실행·보안 검토 · $cp-secure 보안 처리 · $cp-recount 독립 검산 · $cp-final 최종 검사. 사용자가 "점검해줘"라고 하면 $cp-check, "다시 세"는 $cp-recount, "최종 검사"는 $cp-final을 따른다. Skill이 목록에 없으면 내려받은 js-harness 저장소에서 `skills/<이름>/SKILL.md`를 찾아 직접 읽고 따른다.
